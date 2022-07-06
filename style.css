@@ -1,0 +1,35 @@
+:root{
+    --bg-color:#e7e7e7;
+    --main-color:#142374;
+    --white:#ffffff;
+    --sec-col:#142274a9;
+    --sun:#e7e7e7;
+    --moon:#142374;
+}
+.dark-mode{
+    --bg-color: #272727;
+    --main-color:#f7e5b5;
+    --white:#272727;
+    --sec-col:#d8bf7b;
+    --sun:#f7e5b5;
+    --moon:#272727;
+}
+body{
+    background-color: var(--bg-color);
+}
+div{
+    background-color: var(--bg-color);
+    width: 250px;
+    height: 100px;
+}
+h1{
+    color: var(--main-color);
+    font-style: italic;
+    font-weight: bold;
+}
+button{
+    background-color: var(--sec-col);
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--white);
+}
